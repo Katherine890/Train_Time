@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Gugi|Share+Tech+Mono" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Moment.js -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <!-- JavaScript-->
+    <script src="assets/javascript/app.js"></script>
+    <title>Train Times</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Train Times</h1>
+            <p class="lead">The Train to Different Dimensions</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+
+                <div class="card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        Current Train Schedule
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-hover table-dark">
+                            <thead>
+                                <tr>
+                                    <th scope="col-sm-2">Train Name</th>
+                                    <th scope="col-sm-2">Destinaton</th>
+                                    <th scope="col-sm-2">Frequency(min)</th>
+                                    <th scope="col-sm-2">Next Arrival</th>
+                                    <th scope="col-sm-2">Minutes Away</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                    <td>poopoo</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                    <td>poopoo</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td colspan="2">Larry the Bird</td>
+                                    <td>@twitter</td>
+                                    <td>poopoo</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+        <div class="col-lg-12">
+
+            <div class="card text-white bg-dark mb-3">
+                <div class="card-header">
+                    Add Train
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="input-train">Train Name</label>
+                            <input type="train" class="form-control" id="input-train" placeholder="Enter Train">
+                        </div>
+                        <div class="form-group">
+                            <label for="input-destination">Destinaton</label>
+                            <input type="destination" class="form-control" id="input-destination" placeholder="Enter Destination">
+                        </div>
+                        <div class="form-group">
+                            <label for="input-time">First Train Time</label>
+                            <input type="time" class="form-control" id="input-time" placeholder="Enter Time">
+                        </div>
+                        <div class="form-group">
+                            <label for="input-minutes">Frequency(min)</label>
+                            <input type="minutes" class="form-control" id="input-minutes" placeholder="Enter Minutes"><br>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
