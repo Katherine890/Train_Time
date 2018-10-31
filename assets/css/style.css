@@ -2,6 +2,11 @@
     font-family: "Share Tech Mono", monospace, Arial, Helvetica, sans-serif;
 }
 
+thead {
+    font-size: 20px;
+    color: #9e0000;
+}
+
 .jumbotron {
     text-align: center;
     font-family: "Gugi", cursive, Arial, Helvetica, sans-serif;
@@ -9,7 +14,11 @@
     color: white;
 }
 
-.card-header,
+.card-header {
+    font-family: "Gugi", cursive, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
 .form-group {
     font-family: "Gugi", cursive, Arial, Helvetica, sans-serif;
 }
